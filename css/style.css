@@ -1,0 +1,106 @@
+
+
+body {
+    
+    font-family: 'Barlow', sans-serif;
+
+}
+
+.wrapper {
+    max-width: 1230px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+    font-size: 16px;
+    line-height: 1.5;
+}
+.table {
+    max-width: 750px;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin: 30px auto 0;
+    border-collapse: collapse;
+}
+
+
+.header {
+    background-color: green;
+    color: white;
+}
+.header div {
+    border-right:1px solid white;
+}
+.header div:last-child {
+    border-right: 0;
+}
+.header th {
+    width: 100px;
+    
+}
+.sort {
+    cursor: pointer;
+    
+}
+.sort i {
+    padding: 5px;
+}
+.form {
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+.form__btn:focus {
+    outline: none;
+}
+.input__search {
+    font-family: 'Barlow', sans-serif;
+    color: grey;
+    width: 200px;
+    margin: 30px 0 15px;
+    font-size: 14px;
+    padding: 9px;
+    border: 1px solid green;
+}
+.name__search {
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+    margin: 30px 0 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 10px 40px;
+    background-color: green;
+    color: white;
+    border: 0;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 40px;
+}
+.name__search:focus,
+.input__search:focus  {
+    outline: none;
+}
+
+.name__search:hover,
+.sort:hover {
+    background-color: rgb(43, 63, 175);
+    user-select: none;
+}
+.active {
+    width: 500px;
+}
+
+/* Сортировка  */
+.sortToMin {
+    padding-left: 30px;
+    cursor: pointer;
+}
+.sortToMax {
+    display: none;
+    cursor: pointer;
+}
+

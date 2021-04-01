@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <title>Get biathlon results</title>
+</head>
+<body>
+    <div class = "wrapper">
+        <form id="form" class="form">
+            <input type="text" class="input__search" placeholder="last name">
+            <button class="name__search">search</button>
+        </form>
+        <table class="table">
+            <thead>
+                <tr class = "header">
+                    <th class="sort" data-sort-key="rank">Rk
+                        <i class="fas fa-arrows-alt-v"></i>
+                    </th>
+                    <th class="sort" data-sort-key="firstname">
+                        First Name
+                        <i class="fas fa-arrows-alt-v"></i>
+                    </th>
+                    <th class="sort" data-sort-key="lastname">
+                        Last Name
+                        <i class="fas fa-arrows-alt-v"></i>
+                    </th>
+                    <th>NAT</th>
+                    <th>Shoothing</th>
+                    <th class="sort" data-sort-key="hit">
+                        T
+                        <i class="fas fa-arrows-alt-v"></i>
+                    </th>
+                    <th class="sort" data-sort-key="time">
+                        Result
+                        <i class="fas fa-arrows-alt-v"></i>
+                    </th>
+                </tr>                
+            </thead>
+            <tbody id="person-container" class="person-container">
+
+            </tbody>
+        </table>
+    </div>
+    
+    
+</body>
+<script src = "./js/random_obj.js"></script>
+<script src = "./js/main.js"></script>
+<script src="https://kit.fontawesome.com/4ee8e669be.js" crossorigin="anonymous"></script>
+</html>
